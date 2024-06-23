@@ -7,7 +7,6 @@ public class FP01Structured {
         printAllNumbersInListStructured(List.of(12,9,13,1,2,3,4,6,7,89));
         System.out.println("============================================");
         printEvenNumbersInListStructured(List.of(12,9,13,1,2,3,4,6,7,89));
-        
     }
 
     private static void printEvenNumbersInListStructured(List<Integer> integers) {
