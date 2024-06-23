@@ -12,7 +12,7 @@ public class FP01FunctionalUsingLambdaInFilter {
 
     private static void printEvenNumbersInListFunctional(List<Integer> integers) {
         integers.stream()
-                .filter(numInList -> numInList%2==0) //using filter and lambda function inside it to filter out even number from the list
+                .filter(numInList -> numInList%2==0) //using filter and lambda expression inside it to filter out even number from the list
                 .forEach(System.out::println);
     }
 
